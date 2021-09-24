@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+p,
+span,
+a {
+    width: 95%;
+}
+
+body {
+    background: black;
+    color: white;
+    transition: .4s;
+}
+
+.title {
+    font-weight: 300;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.opacity-0 {
+    opacity: 0;
+}
+
+.display-none {
+    display: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.start-btn {
+    padding: 10px 24px;
+    border: none;
+    background: transparent;
+    font-weight: bold;
+    border-radius: 0;
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.start-btn:hover {
+    background: white;
+    color: black;
+    transition: .3s;
+}
+
+.b-circle {
+    height: 90px;
+    width: 90px;
+    background: #fba2a2;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+}
+
+.in-b-circle {
+    background: #f47878;
+    animation-name: breathing;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+.b-info {
+    bottom: -90px;
+    position: absolute;
+    width: 150px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+@keyframes breathing {
+    0% {
+        height: 90px;
+        width: 90px;
+    }
+    50% {
+        height: 10px;
+        width: 10px;
+    }
+    100% {
+        height: 90px;
+        width: 90px;
+    }
+}

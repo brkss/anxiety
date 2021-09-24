@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anti Anxiety</title>
+
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body id="body">
+
+    <div id="main">
+        <!-- Intro -->
+        <div class="intro">
+            <h1 class="title middle opacity-0" id="intro-title-1">Hey!</h1>
+            <h1 class="title middle opacity-0" id="intro-title-2">Dont worry, i'm here to help</h1>
+            <h1 class="title middle opacity-0" id="intro-title-3">Take it easy..</h1>
+            <div class="alert middle text-center opacity-0" id="intro-alert-1">
+                <img src="./assets/imgs/hp.webp" style="filter: invert(1);width: 80px;" alt="">
+                <span style="display: block;">You can put your headphones if you want to</span>
+            </div>
+            <button class="start-btn middle opacity-0" id="intro-btn-1" onclick="resumeTimeline()">Start</button>
+        </div>
+        <!-- Intro -->
+
+        <!-- Step 1 -->
+        <div class="step-1">
+            <h1 class="title middle opacity-0 display-none" id="step-1-title-1">Lets do some breathing..</h1>
+            <div class="breathing middle opacity-0 display-none" id="step-1-breathing">
+                <span class="b-circle ex-b-circle"></span>
+                <span class="b-circle in-b-circle"></span>
+                <span class="b-info">Breath in and out</span>
+            </div>
+        </div>
+        <!-- Step 1 -->
+
+        <!-- Step 2 -->
+        <div class="step-2">
+            <h1 class="title middle opacity-0 display-none" id="step-2-title-1">Now..</h1>
+            <h1 class="title middle opacity-0 display-none" id="step-2-title-2">Accept that you’re anxious.</h1>
+            <h1 class="title middle opacity-0 display-none" id="step-2-title-3">anxiety is just a feeling, like any other feeling</h1>
+
+        </div>
+        <!-- Step 2 -->
+
+        <!-- Step 3 -->
+        <div class="step-3">
+            <h1 class="title middle opacity-0 display-none" id="step-3-title-1">Now, I want you to Realize</h1>
+            <h1 class="title middle opacity-0 display-none" id="step-3-title-2">That your brain is playing tricks on you</h1>
+            <p class="title middle opacity-0 display-none text-center " id="step-3-p-1">a person’s brain can make them believe they’re dying of a heart attack when they’re actually having a panic attack</p>
+            <h1 class="title middle opacity-0 display-none" id="step-3-title-3">This is Crazy, Right ?</h1>
+
+        </div>
+        <!-- Step 3 -->
+
+        <!-- Step 4 -->
+        <div class="step-4">
+            <p class="title middle opacity-0 display-none text-center " id="step-4-p-1">When people are anxious, their brains start coming up with all sorts of outlandish ideas</p>
+            <h1 class="title middle opacity-0 display-none" id="step-4-title-1">Question your thoughts</h1>
+            <p class="title middle opacity-0 display-none text-center" id="step-4-p-2">Ask yourself these questions when challenging your thoughts</p>
+
+            <h1 class="title middle opacity-0 display-none text-center" id="step-4-question-1">Is this worry realistic?</h1>
+            <h1 class="title middle opacity-0 display-none text-center" id="step-4-question-2">Is this really likely to happen?</h1>
+            <h1 class="title middle opacity-0 display-none text-center" id="step-4-question-3">Is this really true or does it just seem that way?</h1>
+            <h1 class="title middle opacity-0 display-none text-center" id="step-4-question-4">If the worst possible outcome happens, what would be so bad about that?</h1>
+            <h1 class="title middle opacity-0 display-none text-center" id="step-4-question-5">Could I handle that?</h1>
+            <h1 class="title middle opacity-0 display-none text-center" id="step-4-question-6">What might I do?</h1>
+            <h1 class="title middle opacity-0 display-none text-center" id="step-4-question-7">If something bad happens, what might that mean about me?</h1>
+
+
+        </div>
+        <!-- Step 4 -->
+
+        <!-- Step 5 -->
+        <div class="step-5">
+            <h1 class="title middle opacity-0 display-none  text-center" id="step-5-title-1">You see ? There's nothing to worry about</h1>
+            <h1 class="title middle opacity-0 display-none  text-center" id="step-5-title-2">Now</h1>
+            <h1 class="title middle opacity-0 display-none  text-center" id="step-5-title-3">Let's use a calming visualization.</h1>
+            <h1 class="title middle opacity-0 display-none  text-center" id="step-5-title-4">What’s the most relaxing place in the world that you can think of?</h1>
+            <h1 class="title middle opacity-0 display-none  text-center" id="step-5-title-5">A sunny beach with gently rolling waves? A cabin in the mountains?</h1>
+            <h1 class="title middle opacity-0 display-none  text-center" id="step-5-title-6">Picture yourself there, and try to focus on the details as much as possible.</h1>
+        </div>
+        <!-- Step 5 -->
+
+        <!-- Step 6 -->
+        <div class="step-6">
+            <h1 class="title middle opacity-0 display-none  text-center" id="step-6-title-1">Feeling any better ?</h1>
+            <h1 class="title middle opacity-0 display-none  text-center" id="step-6-title-2">...</h1>
+            <h1 class="title middle opacity-0 display-none  text-center" id="step-6-title-3">Focus on right now.</h1>
+            <p class="title middle opacity-0 display-none text-center" id="step-6-p-1">When people are anxious, they are usually obsessing about something that might occur in the future</p>
+            <h1 class="title middle opacity-0 display-none  text-center" id="step-6-title-4">Instead, pause, breathe</h1>
+            <h1 class="title middle opacity-0 display-none  text-center" id="step-6-title-5">and pay attention to what’s happening right now</h1>
+            <p class="title middle opacity-0 display-none text-center" id="step-6-p-2">Even if something serious is happening, focusing on the present moment will improve your ability to manage the situation</p>
+
+        </div>
+        <!-- Step 6 -->
+
+        <!-- Step 7 -->
+        <div class="step-7">
+            <h1 class="title middle opacity-0 display-none  text-center" id="step-7-title-1">Positive self-talk</h1>
+            <p class="title middle opacity-0 display-none text-center" id="step-7-p-1"> Anxiety can produce a lot of negative chatter, positive self-talk is often the process that allows you to discover the obscured optimism, hope, and joy in any given situation.</p>
+        </div>
+        <!-- Step 7 -->
+
+        <!-- Step 8 -->
+        <div class="step-8">
+            <h1 class="title middle opacity-0 display-none  text-center" id="step-8-title-1">Things to help you feel better </h1>
+
+            <h1 class="title middle opacity-0 display-none  text-center" id="step-8-title-2">Drink Water</h1>
+            <h1 class="title middle opacity-0 display-none  text-center" id="step-8-title-3">Watch funny video</h1>
+            <h1 class="title middle opacity-0 display-none  text-center" id="step-8-title-4">Stay away from sugar</h1>
+            <h1 class="title middle opacity-0 display-none  text-center" id="step-8-title-5">Go for a walk</h1>
+            <h1 class="title middle opacity-0 display-none  text-center" id="step-8-title-6">Talk to someone</h1>
+        </div>
+        <!-- Step 8 -->
+
+        <!-- Outro -->
+        <div class="outro">
+            <h1 class="title middle opacity-0 display-none  text-center" id="outro-title-1">Hope you're feeling better </h1>
+            <h1 class="title middle opacity-0 display-none  text-center" id="outro-title-2">Otherwise you can always start over </h1>
+            <h1 class="title middle opacity-0 display-none  text-center" id="outro-title-3">Take care of yourself </h1>
+
+            <div class="alert middle text-center opacity-0 display-none" id="outro-alert-1">
+                <span>Created by</span>
+                <a href="https://instagram.com/brahimberkasse" target="_blank" style="display: block;">@brahimberkasse</span>
+            </div>
+        </div>
+        <!-- Outro -->
+
+    </div>
+
+    <audio src="./assets/audio/music.mp3" id="music" loop="" style="opacity: 0;"></audio>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+
+</body>
+
+</html>
