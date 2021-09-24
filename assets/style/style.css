@@ -81,7 +81,7 @@ body {
 .b-info {
     bottom: -90px;
     position: absolute;
-    width: 150px;
+    width: 350px;
     left: 50%;
     transform: translate(-50%, 0);
     text-align: center;
